@@ -1,6 +1,6 @@
 R-python dictionary
 
-  | base | data.table | dplyr | ggplot2 | lubridate | methods | purrr | readr | reshape2 | stats | stringr | tidyr | python |
+| base | data.table | dplyr | ggplot2 | lubridate | methods | purrr | readr | reshape2 | stats | stringr | tidyr | python |
   | :----------------------------  | :--------------  | :------------  | :---------------------  | :-------------  | :--------------------  | :-  | :-----------  | :---  | :-------  | :-------------  | :------ 
   | c                              |                  |                |                         |                 |                        |     |               |       |           |                 |         
   | if                             |                  |                |                         |                 |                        |     |               |       |           |                 |         
