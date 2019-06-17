@@ -1,554 +1,553 @@
 R-python dictionary
 
-| base   | data.table   | dplyr   | lubridate   | methods   | purrr   | readr   | reshape2   | stats   | stringr   | tidyr   | python   |
-| :----------------------------  |:--------------  |:---------  |:---  |:------------  |:-  |:-------  |:---  |:-----  |:-------------  |:------  |:-    |
-| c                              |                  |             |       |                |     |           |       |         |                 |          |       |
-| if                             |                  |             |       |                |     |           |       |         |                 |          |       |
-| function                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| length                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| list                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| paste                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| return                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| for                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| paste0                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| names                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.null                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| library                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| print                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| cat                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| stop                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| rep                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| sum                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| nrow                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.na                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| which                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| colnames                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.character                   |                  |             |       |                |     |           |       |         |                 |          |       |
-| data.frame                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.numeric                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| matrix                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| max                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| lapply                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| unique                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| seq                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| mean                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| missing                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| cbind                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| dim                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| round                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| ncol                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| sapply                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| rownames                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| log                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| t                              |                  |             |       |                |     |           |       |         |                 |          |       |
-| unlist                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| ifelse                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| min                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| gsub                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| rbind                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| structure                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| apply                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| file.path                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| class                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| subset                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| summary                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| any                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| sprintf                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.integer                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| attr                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| source                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| sqrt                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.data.frame                  |                  |             |       |                |     |           |       |         |                 |          |       |
-| factor                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.matrix                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| grep                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| abs                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| stopifnot                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| exp                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| require                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| order                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| identical                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| rm                             |                  |             |       |                |     |           |       |         |                 |          |       |
-| strsplit                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| grepl                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| all                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.vector                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| message                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| match                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| table                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| warning                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| eval                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| character                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| levels                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| setwd                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| do.call                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.factor                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| sort                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| invisible                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| sample                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| merge                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| file.exists                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| get                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| format                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| diag                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| numeric                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| sub                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| nchar                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| vector                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| load                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| set.seed                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| substr                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| seq_along                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| options                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| parse                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| inherits                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| assign                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| array                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| gettextf                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| expression                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| standardGeneric                |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.character                   |                  |             |       |                |     |           |       |         |                 |          |       |
-| system                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.Date                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| try                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| with                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| sQuote                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| dimnames                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| ls                             |                  |             |       |                |     |           |       |         |                 |          |       |
-| save                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| range                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| exists                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.numeric                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.list                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| while                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.double                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| tryCatch                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| integer                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| rev                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| seq_len                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| log10                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| list.files                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| floor                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| diff                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| substitute                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| row.names                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| rowSums                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| setdiff                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| dir.create                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| basename                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| intersect                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| switch                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| writeLines                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| Sys.time                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| deparse                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| commandArgs                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| tolower                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| readLines                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| write                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| sink                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| suppressWarnings               |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.POSIXct                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| getOption                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| append                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| ceiling                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| getwd                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| Sys.getenv                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| unlink                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| colSums                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| system.file                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.list                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| on.exit                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| file                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| dirname                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| match.arg                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| quote                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| I                              |                  |             |       |                |     |           |       |         |                 |          |       |
-| readRDS                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| sin                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| environment                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| all.equal                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| close                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| proc.time                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| duplicated                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| solve                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| nzchar                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| attributes                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| isTRUE                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| cumsum                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| tempfile                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| UseMethod                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| tapply                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.finite                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| colMeans                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.matrix                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| split                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| parent.frame                   |                  |             |       |                |     |           |       |         |                 |          |       |
-| substring                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| cos                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| scan                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| normalizePath                  |                  |             |       |                |     |           |       |         |                 |          |       |
-| double                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.logical                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| rep.int                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| logical                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| scale                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| rowMeans                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| new.env                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| dir.exists                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| toupper                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| signif                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| crossprod                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.logical                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| NROW                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| dir                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| system.time                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| which.max                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| saveRDS                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| log2                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| gc                             |                  |             |       |                |     |           |       |         |                 |          |       |
-| expand.grid                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| vapply                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| mapply                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.data.frame                  |                  |             |       |                |     |           |       |         |                 |          |       |
-| cut                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| match.call                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| bquote                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| suppressMessages               |                  |             |       |                |     |           |       |         |                 |          |       |
-| typeof                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| which.min                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.vector                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| unname                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.name                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| pmax                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| unclass                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.factor                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.function                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.nan                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| toString                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| dQuote                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| file.copy                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| strwrap                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| requireNamespace               |                  |             |       |                |     |           |       |         |                 |          |       |
-| Sys.Date                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| prod                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| browser                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| formatC                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.POSIXlt                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| regexpr                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| sign                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| pmin                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| shQuote                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| strptime                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| file.remove                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.element                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| Sys.setenv                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| outer                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.infinite                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| tempdir                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| Sys.sleep                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| gettext                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| formals                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| body                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| rank                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| date                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| ngettext                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| stderr                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| data.matrix                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| suppressPackageStartupMessages |                  |             |       |                |     |           |       |         |                 |          |       |
-| sweep                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| seq.int                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| readline                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| Reduce                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.environment                 |                  |             |       |                |     |           |       |         |                 |          |       |
-| q                              |                  |             |       |                |     |           |       |         |                 |          |       |
-| file.info                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| attach                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| NCOL                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| droplevels                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| eigen                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| tcrossprod                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| R.home                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| union                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| interactive                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| readBin                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| drop                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| Sys.info                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| globalenv                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| mode                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| transform                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| flush                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| detach                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| replicate                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| strftime                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| pretty                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| chol                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| Filter                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| Re                             |                  |             |       |                |     |           |       |         |                 |          |       |
-| gregexpr                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| Map                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| by                             |                  |             |       |                |     |           |       |         |                 |          |       |
-| stdout                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| nlevels                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| pmatch                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| difftime                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| remove                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| search                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| Sys.glob                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.integer                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| storage.mode                   |                  |             |       |                |     |           |       |         |                 |          |       |
-| prop.table                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| anyNA                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| local                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| quit                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| asNamespace                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| conditionMessage               |                  |             |       |                |     |           |       |         |                 |          |       |
-| trunc                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| NextMethod                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| save.image                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| topenv                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| replace                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| iconv                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| complex                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| rep_len                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.array                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| lower.tri                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| lgamma                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| within                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| regmatches                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| emptyenv                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| objects                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| lengths                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| system2                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| trimws                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| call                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| row                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| col                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| det                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| upper.tri                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.raw                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| cbind.data.frame               |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.call                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| textConnection                 |                  |             |       |                |     |           |       |         |                 |          |       |
-| find.package                   |                  |             |       |                |     |           |       |         |                 |          |       |
-| oldClass                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| charToRaw                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| baseenv                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| make.names                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| ordered                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| path.expand                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| acos                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| startsWith                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.double                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| svd                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| labels                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.environment                 |                  |             |       |                |     |           |       |         |                 |          |       |
-| file.rename                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| qr                             |                  |             |       |                |     |           |       |         |                 |          |       |
-| writeBin                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| sample.int                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| match.fun                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| anyDuplicated                  |                  |             |       |                |     |           |       |         |                 |          |       |
-| sys.call                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| Sys.setlocale                  |                  |             |       |                |     |           |       |         |                 |          |       |
-| Encoding                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| parent.env                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| aperm                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| nargs                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| noquote                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| dput                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| log1p                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| gl                             |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.single                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| Recall                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| jitter                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.name                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| gamma                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| choose                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| sinpi                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| list.dirs                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| all.vars                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| url                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| raw                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.primitive                   |                  |             |       |                |     |           |       |         |                 |          |       |
-| gzfile                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.expression                  |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.atomic                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| rawToChar                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| atan2                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| norm                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| kronecker                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| sys.parent                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| atan                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| eval.parent                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| findInterval                   |                  |             |       |                |     |           |       |         |                 |          |       |
-| interaction                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| Im                             |                  |             |       |                |     |           |       |         |                 |          |       |
-| asin                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.call                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| open                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| mget                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| rle                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| prettyNum                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| packageStartupMessage          |                  |             |       |                |     |           |       |         |                 |          |       |
-| units                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| warnings                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| isS4                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| debug                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| sys.frame                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| force                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| sort.list                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| dyn.load                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| tabulate                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| Sys.which                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| sequence                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| tan                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| readChar                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| chol2inv                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| T                              |                  |             |       |                |     |           |       |         |                 |          |       |
-| Conj                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| tanh                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| alist                          |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.array                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.symbol                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.complex                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| read.dcf                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| setequal                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| file.create                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| loadNamespace                  |                  |             |       |                |     |           |       |         |                 |          |       |
-| getNamespace                   |                  |             |       |                |     |           |       |         |                 |          |       |
-| Mod                            |                  |             |       |                |     |           |       |         |                 |          |       |
-| F                              |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.symbol                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| simplify2array                 |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.table                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| rbind.data.frame               |                  |             |       |                |     |           |       |         |                 |          |       |
-| bitwShiftR                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| beta                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.object                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| file.choose                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| bitwShiftL                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| args                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| getNamespaceInfo               |                  |             |       |                |     |           |       |         |                 |          |       |
-| capabilities                   |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.expression                  |                  |             |       |                |     |           |       |         |                 |          |       |
-| Vectorize                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| cumprod                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| package_version                |                  |             |       |                |     |           |       |         |                 |          |       |
-| Sys.getlocale                  |                  |             |       |                |     |           |       |         |                 |          |       |
-| R.Version                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.unsorted                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| geterrmessage                  |                  |             |       |                |     |           |       |         |                 |          |       |
-| getRversion                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| seek                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| pairlist                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| next                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| is.ordered                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| simpleError                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| version                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| list2env                       |                  |             |       |                |     |           |       |         |                 |          |       |
-| make.unique                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| ISOdate                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| serialize                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| loadedNamespaces               |                  |             |       |                |     |           |       |         |                 |          |       |
-| months                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| Sys.unsetenv                   |                  |             |       |                |     |           |       |         |                 |          |       |
-| isOpen                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| chartr                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| isNamespace                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| file.access                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| RNGkind                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| unserialize                    |                  |             |       |                |     |           |       |         |                 |          |       |
-| pipe                           |                  |             |       |                |     |           |       |         |                 |          |       |
-| bitwAnd                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| strtoi                         |                  |             |       |                |     |           |       |         |                 |          |       |
-| factorial                      |                  |             |       |                |     |           |       |         |                 |          |       |
-| mat.or.vec                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| Sys.getpid                     |                  |             |       |                |     |           |       |         |                 |          |       |
-| withCallingHandlers            |                  |             |       |                |     |           |       |         |                 |          |       |
-| max.col                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| as.numeric_version             |                  |             |       |                |     |           |       |         |                 |          |       |
-| sys.function                   |                  |             |       |                |     |           |       |         |                 |          |       |
-| digamma                        |                  |             |       |                |     |           |       |         |                 |          |       |
-| | set              |             |       |                |     |           |       |         |                 |          |       |
-| | setnames         |             |       |                |     |           |       |         |                 |          |       |
-| | data.table       |             |       |                |     |           |       |         |                 |          |       |
-| | setkey           |             |       |                |     |           |       |         |                 |          |       |
-| | copy             |             |       |                |     |           |       |         |                 |          |       |
-| | as.data.table    |             |       |                |     |           |       |         |                 |          |       |
-| | melt             |             |       |                |     |           |       |         |                 |          |       |
-| | dcast.data.table |             |       |                |     |           |       |         |                 |          |       |
-| | fread            |             |       |                |     |           |       |         |                 |          |       |
-| | rbindlist        |             |       |                |     |           |       |         |                 |          |       |
-| | melt.data.table  |             |       |                |     |           |       |         |                 |          |       |
-| | setkeyv          |             |       |                |     |           |       |         |                 |          |       |
-| | setcolorder      |             |       |                |     |           |       |         |                 |          |       |
-| |                  | filter      |       |                |     |           |       |         |                 |          |       |
-| |                  | mutate      |       |                |     |           |       |         |                 |          |       |
-| |                  | select      |       |                |     |           |       |         |                 |          |       |
-| |                  | group_by    |       |                |     |           |       |         |                 |          |       |
-| |                  | summarise   |       |                |     |           |       |         |                 |          |       |
-| |                  | arrange     |       |                |     |           |       |         |                 |          |       |
-| |                  | n           |       |                |     |           |       |         |                 |          |       |
-| |                  | left_join   |       |                |     |           |       |         |                 |          |       |
-| |                  | summarize   |       |                |     |           |       |         |                 |          |       |
-| |                  | rename      |       |                |     |           |       |         |                 |          |       |
-| |                  | ungroup     |       |                |     |           |       |         |                 |          |       |
-| |                  | bind_rows   |       |                |     |           |       |         |                 |          |       |
-| |                  | desc        |       |                |     |           |       |         |                 |          |       |
-| |                  | inner_join  |       |                |     |           |       |         |                 |          |       |
-| |                  | distinct    |       |                |     |           |       |         |                 |          |       |
-| |                  | tbl_df      |       |                |     |           |       |         |                 |          |       |
-| |                  | count       |       |                |     |           |       |         |                 |          |       |
-| |                  | starts_with |       |                |     |           |       |         |                 |          |       |
-| |                  | funs        |       |                |     |           |       |         |                 |          |       |
-| |                  | intersect   |       |                |     |           |       |         |                 |          |       |
-| |                  | setdiff     |       |                |     |           |       |         |                 |          |       |
-| |                  | tbl         |       |                |     |           |       |         |                 |          |       |
-| |                  | do          |       |                |     |           |       |         |                 |          |       |
-| |                  | slice       |       |                |     |           |       |         |                 |          |       |
-| |                  | contains    |       |                |     |           |       |         |                 |          |       |
-| |                  | collect     |       |                |     |           |       |         |                 |          |       |
-| |                  | first       |       |                |     |           |       |         |                 |          |       |
-| |                  | data_frame  |       |                |     |           |       |         |                 |          |       |
-| |                  | select_     |       |                |     |           |       |         |                 |          |       |
-| |                  | glimpse     |       |                |     |           |       |         |                 |          |       |
-| |                  | full_join   |       |                |     |           |       |         |                 |          |       |
-| |                  | n_distinct  |       |                |     |           |       |         |                 |          |       |
-| |                  |             |       | new            |     |           |       |         |                 |          |       |
-| |                  |             |       | is             |     |           |       |         |                 |          |       |
-| |                  |             |       | setMethod      |     |           |       |         |                 |          |       |
-| |                  |             |       | setClass       |     |           |       |         |                 |          |       |
-| |                  |             |       | representation |     |           |       |         |                 |          |       |
-| |                  |             |       | slot           |     |           |       |         |                 |          |       |
-| |                  |             |       | signature      |     |           |       |         |                 |          |       |
-| |                  |             |       | getClass       |     |           |       |         |                 |          |       |
-| |                  |             |       | getClassDef    |     |           |       |         |                 |          |       |
-| |                  |             |       | setGeneric     |     |           |       |         |                 |          |       |
-| |                  |             |       | as             |     |           |       |         |                 |          |       |
-| |                  |             |       | getGeneric     |     |           |       |         |                 |          |       |
-| |                  |             |       | packageSlot    |     |           |       |         |                 |          |       |
-| |                  |             |       | extends        |     |           |       |         |                 |          |       |
-| |                  |             |       |                |     |           |       |         | str_detect      |          |       |
-| |                  |             |       |                |     |           |       |         | str_replace_all |          |       |
-| |                  |             |       |                |     |           |       |         | str_replace     |          |       |
-| |                  |             |       |                |     |           |       |         | str_c           |          |       |
-| |                  |             |       |                |     |           |       |         | str_trim        |          |       |
-| |                  |             |       |                |     |           |       |         | str_sub         |          |       |
-| |                  |             |       |                |     |           |       |         | str_split       |          |       |
-| |                  |             |       |                |     |           |       |         | str_extract     |          |       |
-| |                  |             |       |                |     |           |       |         | str_split_fixed |          |       |
-| |                  |             |       |                |     |           |       | lm      |                 |          |       |
-| |                  |             |       |                |     |           |       | rnorm   |                 |          |       |
-| |                  |             |       |                |     |           |       | runif   |                 |          |       |
-| |                  |             |       |                |     |           |       | predict |                 |          |       |
-| |                  |             |       |                |     |           | melt  |         |                 |          |       |
-| |                  |             |       |                |     |           | dcast |         |                 |          |       |
-| |                  |             | year  |                |     |           |       |         |                 |          |       |
-| |                  |             | ymd   |                |     |           |       |         |                 |          |       |
-| |                  |             | month |                |     |           |       |         |                 |          |       |
-| |                  |             |       |                |     |           |       |         |                 | gather   |       |
-| |                  |             |       |                |     |           |       |         |                 | spread   |       |
-| |                  |             |       |                |     |           |       |         |                 | separate |       |
-| |                  |             |       |                |     | read_csv  |       |         |                 |          |       |
-| |                  |             |       |                |     | write_csv |       |         |                 |          |       |
-| |                  |             |       |                |     |           |       |         |                 |          |       |
+| base   | data.table   | dplyr   | lubridate   | methods   | readr   | reshape2   | stats   | stringr   | tidyr   | python   |
+| :----------------------------  |:--------------  |:---------  |:---  |:------------  |:-------  |:---  |:-----  |:-------------  |:------  |:-    |
+| c                              |                  |             |       |                |           |       |         |                 |          |       |
+| if                             |                  |             |       |                |           |       |         |                 |          |       |
+| function                       |                  |             |       |                |           |       |         |                 |          |       |
+| length                         |                  |             |       |                |           |       |         |                 |          |       |
+| list                           |                  |             |       |                |           |       |         |                 |          |       |
+| paste                          |                  |             |       |                |           |       |         |                 |          |       |
+| return                         |                  |             |       |                |           |       |         |                 |          |       |
+| for                            |                  |             |       |                |           |       |         |                 |          |       |
+| paste0                         |                  |             |       |                |           |       |         |                 |          |       |
+| names                          |                  |             |       |                |           |       |         |                 |          |       |
+| is.null                        |                  |             |       |                |           |       |         |                 |          |       |
+| library                        |                  |             |       |                |           |       |         |                 |          |       |
+| print                          |                  |             |       |                |           |       |         |                 |          |       |
+| cat                            |                  |             |       |                |           |       |         |                 |          |       |
+| stop                           |                  |             |       |                |           |       |         |                 |          |       |
+| rep                            |                  |             |       |                |           |       |         |                 |          |       |
+| sum                            |                  |             |       |                |           |       |         |                 |          |       |
+| nrow                           |                  |             |       |                |           |       |         |                 |          |       |
+| is.na                          |                  |             |       |                |           |       |         |                 |          |       |
+| which                          |                  |             |       |                |           |       |         |                 |          |       |
+| colnames                       |                  |             |       |                |           |       |         |                 |          |       |
+| as.character                   |                  |             |       |                |           |       |         |                 |          |       |
+| data.frame                     |                  |             |       |                |           |       |         |                 |          |       |
+| as.numeric                     |                  |             |       |                |           |       |         |                 |          |       |
+| matrix                         |                  |             |       |                |           |       |         |                 |          |       |
+| max                            |                  |             |       |                |           |       |         |                 |          |       |
+| lapply                         |                  |             |       |                |           |       |         |                 |          |       |
+| unique                         |                  |             |       |                |           |       |         |                 |          |       |
+| seq                            |                  |             |       |                |           |       |         |                 |          |       |
+| mean                           |                  |             |       |                |           |       |         |                 |          |       |
+| missing                        |                  |             |       |                |           |       |         |                 |          |       |
+| cbind                          |                  |             |       |                |           |       |         |                 |          |       |
+| dim                            |                  |             |       |                |           |       |         |                 |          |       |
+| round                          |                  |             |       |                |           |       |         |                 |          |       |
+| ncol                           |                  |             |       |                |           |       |         |                 |          |       |
+| sapply                         |                  |             |       |                |           |       |         |                 |          |       |
+| rownames                       |                  |             |       |                |           |       |         |                 |          |       |
+| log                            |                  |             |       |                |           |       |         |                 |          |       |
+| t                              |                  |             |       |                |           |       |         |                 |          |       |
+| unlist                         |                  |             |       |                |           |       |         |                 |          |       |
+| ifelse                         |                  |             |       |                |           |       |         |                 |          |       |
+| min                            |                  |             |       |                |           |       |         |                 |          |       |
+| gsub                           |                  |             |       |                |           |       |         |                 |          |       |
+| rbind                          |                  |             |       |                |           |       |         |                 |          |       |
+| structure                      |                  |             |       |                |           |       |         |                 |          |       |
+| apply                          |                  |             |       |                |           |       |         |                 |          |       |
+| file.path                      |                  |             |       |                |           |       |         |                 |          |       |
+| class                          |                  |             |       |                |           |       |         |                 |          |       |
+| subset                         |                  |             |       |                |           |       |         |                 |          |       |
+| summary                        |                  |             |       |                |           |       |         |                 |          |       |
+| any                            |                  |             |       |                |           |       |         |                 |          |       |
+| sprintf                        |                  |             |       |                |           |       |         |                 |          |       |
+| as.integer                     |                  |             |       |                |           |       |         |                 |          |       |
+| attr                           |                  |             |       |                |           |       |         |                 |          |       |
+| source                         |                  |             |       |                |           |       |         |                 |          |       |
+| sqrt                           |                  |             |       |                |           |       |         |                 |          |       |
+| as.data.frame                  |                  |             |       |                |           |       |         |                 |          |       |
+| factor                         |                  |             |       |                |           |       |         |                 |          |       |
+| as.matrix                      |                  |             |       |                |           |       |         |                 |          |       |
+| grep                           |                  |             |       |                |           |       |         |                 |          |       |
+| abs                            |                  |             |       |                |           |       |         |                 |          |       |
+| stopifnot                      |                  |             |       |                |           |       |         |                 |          |       |
+| exp                            |                  |             |       |                |           |       |         |                 |          |       |
+| require                        |                  |             |       |                |           |       |         |                 |          |       |
+| order                          |                  |             |       |                |           |       |         |                 |          |       |
+| identical                      |                  |             |       |                |           |       |         |                 |          |       |
+| rm                             |                  |             |       |                |           |       |         |                 |          |       |
+| strsplit                       |                  |             |       |                |           |       |         |                 |          |       |
+| grepl                          |                  |             |       |                |           |       |         |                 |          |       |
+| all                            |                  |             |       |                |           |       |         |                 |          |       |
+| as.vector                      |                  |             |       |                |           |       |         |                 |          |       |
+| message                        |                  |             |       |                |           |       |         |                 |          |       |
+| match                          |                  |             |       |                |           |       |         |                 |          |       |
+| table                          |                  |             |       |                |           |       |         |                 |          |       |
+| warning                        |                  |             |       |                |           |       |         |                 |          |       |
+| eval                           |                  |             |       |                |           |       |         |                 |          |       |
+| character                      |                  |             |       |                |           |       |         |                 |          |       |
+| levels                         |                  |             |       |                |           |       |         |                 |          |       |
+| setwd                          |                  |             |       |                |           |       |         |                 |          |       |
+| do.call                        |                  |             |       |                |           |       |         |                 |          |       |
+| as.factor                      |                  |             |       |                |           |       |         |                 |          |       |
+| sort                           |                  |             |       |                |           |       |         |                 |          |       |
+| invisible                      |                  |             |       |                |           |       |         |                 |          |       |
+| sample                         |                  |             |       |                |           |       |         |                 |          |       |
+| merge                          |                  |             |       |                |           |       |         |                 |          |       |
+| file.exists                    |                  |             |       |                |           |       |         |                 |          |       |
+| get                            |                  |             |       |                |           |       |         |                 |          |       |
+| format                         |                  |             |       |                |           |       |         |                 |          |       |
+| diag                           |                  |             |       |                |           |       |         |                 |          |       |
+| numeric                        |                  |             |       |                |           |       |         |                 |          |       |
+| sub                            |                  |             |       |                |           |       |         |                 |          |       |
+| nchar                          |                  |             |       |                |           |       |         |                 |          |       |
+| vector                         |                  |             |       |                |           |       |         |                 |          |       |
+| load                           |                  |             |       |                |           |       |         |                 |          |       |
+| set.seed                       |                  |             |       |                |           |       |         |                 |          |       |
+| substr                         |                  |             |       |                |           |       |         |                 |          |       |
+| seq_along                      |                  |             |       |                |           |       |         |                 |          |       |
+| options                        |                  |             |       |                |           |       |         |                 |          |       |
+| parse                          |                  |             |       |                |           |       |         |                 |          |       |
+| inherits                       |                  |             |       |                |           |       |         |                 |          |       |
+| assign                         |                  |             |       |                |           |       |         |                 |          |       |
+| array                          |                  |             |       |                |           |       |         |                 |          |       |
+| gettextf                       |                  |             |       |                |           |       |         |                 |          |       |
+| expression                     |                  |             |       |                |           |       |         |                 |          |       |
+| standardGeneric                |                  |             |       |                |           |       |         |                 |          |       |
+| is.character                   |                  |             |       |                |           |       |         |                 |          |       |
+| system                         |                  |             |       |                |           |       |         |                 |          |       |
+| as.Date                        |                  |             |       |                |           |       |         |                 |          |       |
+| try                            |                  |             |       |                |           |       |         |                 |          |       |
+| with                           |                  |             |       |                |           |       |         |                 |          |       |
+| sQuote                         |                  |             |       |                |           |       |         |                 |          |       |
+| dimnames                       |                  |             |       |                |           |       |         |                 |          |       |
+| ls                             |                  |             |       |                |           |       |         |                 |          |       |
+| save                           |                  |             |       |                |           |       |         |                 |          |       |
+| range                          |                  |             |       |                |           |       |         |                 |          |       |
+| exists                         |                  |             |       |                |           |       |         |                 |          |       |
+| is.numeric                     |                  |             |       |                |           |       |         |                 |          |       |
+| as.list                        |                  |             |       |                |           |       |         |                 |          |       |
+| while                          |                  |             |       |                |           |       |         |                 |          |       |
+| as.double                      |                  |             |       |                |           |       |         |                 |          |       |
+| tryCatch                       |                  |             |       |                |           |       |         |                 |          |       |
+| integer                        |                  |             |       |                |           |       |         |                 |          |       |
+| rev                            |                  |             |       |                |           |       |         |                 |          |       |
+| seq_len                        |                  |             |       |                |           |       |         |                 |          |       |
+| log10                          |                  |             |       |                |           |       |         |                 |          |       |
+| list.files                     |                  |             |       |                |           |       |         |                 |          |       |
+| floor                          |                  |             |       |                |           |       |         |                 |          |       |
+| diff                           |                  |             |       |                |           |       |         |                 |          |       |
+| substitute                     |                  |             |       |                |           |       |         |                 |          |       |
+| row.names                      |                  |             |       |                |           |       |         |                 |          |       |
+| rowSums                        |                  |             |       |                |           |       |         |                 |          |       |
+| setdiff                        |                  |             |       |                |           |       |         |                 |          |       |
+| dir.create                     |                  |             |       |                |           |       |         |                 |          |       |
+| basename                       |                  |             |       |                |           |       |         |                 |          |       |
+| intersect                      |                  |             |       |                |           |       |         |                 |          |       |
+| switch                         |                  |             |       |                |           |       |         |                 |          |       |
+| writeLines                     |                  |             |       |                |           |       |         |                 |          |       |
+| Sys.time                       |                  |             |       |                |           |       |         |                 |          |       |
+| deparse                        |                  |             |       |                |           |       |         |                 |          |       |
+| commandArgs                    |                  |             |       |                |           |       |         |                 |          |       |
+| tolower                        |                  |             |       |                |           |       |         |                 |          |       |
+| readLines                      |                  |             |       |                |           |       |         |                 |          |       |
+| write                          |                  |             |       |                |           |       |         |                 |          |       |
+| sink                           |                  |             |       |                |           |       |         |                 |          |       |
+| suppressWarnings               |                  |             |       |                |           |       |         |                 |          |       |
+| as.POSIXct                     |                  |             |       |                |           |       |         |                 |          |       |
+| getOption                      |                  |             |       |                |           |       |         |                 |          |       |
+| append                         |                  |             |       |                |           |       |         |                 |          |       |
+| ceiling                        |                  |             |       |                |           |       |         |                 |          |       |
+| getwd                          |                  |             |       |                |           |       |         |                 |          |       |
+| Sys.getenv                     |                  |             |       |                |           |       |         |                 |          |       |
+| unlink                         |                  |             |       |                |           |       |         |                 |          |       |
+| colSums                        |                  |             |       |                |           |       |         |                 |          |       |
+| system.file                    |                  |             |       |                |           |       |         |                 |          |       |
+| is.list                        |                  |             |       |                |           |       |         |                 |          |       |
+| on.exit                        |                  |             |       |                |           |       |         |                 |          |       |
+| file                           |                  |             |       |                |           |       |         |                 |          |       |
+| dirname                        |                  |             |       |                |           |       |         |                 |          |       |
+| match.arg                      |                  |             |       |                |           |       |         |                 |          |       |
+| quote                          |                  |             |       |                |           |       |         |                 |          |       |
+| I                              |                  |             |       |                |           |       |         |                 |          |       |
+| readRDS                        |                  |             |       |                |           |       |         |                 |          |       |
+| sin                            |                  |             |       |                |           |       |         |                 |          |       |
+| environment                    |                  |             |       |                |           |       |         |                 |          |       |
+| all.equal                      |                  |             |       |                |           |       |         |                 |          |       |
+| close                          |                  |             |       |                |           |       |         |                 |          |       |
+| proc.time                      |                  |             |       |                |           |       |         |                 |          |       |
+| duplicated                     |                  |             |       |                |           |       |         |                 |          |       |
+| solve                          |                  |             |       |                |           |       |         |                 |          |       |
+| nzchar                         |                  |             |       |                |           |       |         |                 |          |       |
+| attributes                     |                  |             |       |                |           |       |         |                 |          |       |
+| isTRUE                         |                  |             |       |                |           |       |         |                 |          |       |
+| cumsum                         |                  |             |       |                |           |       |         |                 |          |       |
+| tempfile                       |                  |             |       |                |           |       |         |                 |          |       |
+| UseMethod                      |                  |             |       |                |           |       |         |                 |          |       |
+| tapply                         |                  |             |       |                |           |       |         |                 |          |       |
+| is.finite                      |                  |             |       |                |           |       |         |                 |          |       |
+| colMeans                       |                  |             |       |                |           |       |         |                 |          |       |
+| is.matrix                      |                  |             |       |                |           |       |         |                 |          |       |
+| split                          |                  |             |       |                |           |       |         |                 |          |       |
+| parent.frame                   |                  |             |       |                |           |       |         |                 |          |       |
+| substring                      |                  |             |       |                |           |       |         |                 |          |       |
+| cos                            |                  |             |       |                |           |       |         |                 |          |       |
+| scan                           |                  |             |       |                |           |       |         |                 |          |       |
+| normalizePath                  |                  |             |       |                |           |       |         |                 |          |       |
+| double                         |                  |             |       |                |           |       |         |                 |          |       |
+| is.logical                     |                  |             |       |                |           |       |         |                 |          |       |
+| rep.int                        |                  |             |       |                |           |       |         |                 |          |       |
+| logical                        |                  |             |       |                |           |       |         |                 |          |       |
+| scale                          |                  |             |       |                |           |       |         |                 |          |       |
+| rowMeans                       |                  |             |       |                |           |       |         |                 |          |       |
+| new.env                        |                  |             |       |                |           |       |         |                 |          |       |
+| dir.exists                     |                  |             |       |                |           |       |         |                 |          |       |
+| toupper                        |                  |             |       |                |           |       |         |                 |          |       |
+| signif                         |                  |             |       |                |           |       |         |                 |          |       |
+| crossprod                      |                  |             |       |                |           |       |         |                 |          |       |
+| as.logical                     |                  |             |       |                |           |       |         |                 |          |       |
+| NROW                           |                  |             |       |                |           |       |         |                 |          |       |
+| dir                            |                  |             |       |                |           |       |         |                 |          |       |
+| system.time                    |                  |             |       |                |           |       |         |                 |          |       |
+| which.max                      |                  |             |       |                |           |       |         |                 |          |       |
+| saveRDS                        |                  |             |       |                |           |       |         |                 |          |       |
+| log2                           |                  |             |       |                |           |       |         |                 |          |       |
+| gc                             |                  |             |       |                |           |       |         |                 |          |       |
+| expand.grid                    |                  |             |       |                |           |       |         |                 |          |       |
+| vapply                         |                  |             |       |                |           |       |         |                 |          |       |
+| mapply                         |                  |             |       |                |           |       |         |                 |          |       |
+| is.data.frame                  |                  |             |       |                |           |       |         |                 |          |       |
+| cut                            |                  |             |       |                |           |       |         |                 |          |       |
+| match.call                     |                  |             |       |                |           |       |         |                 |          |       |
+| bquote                         |                  |             |       |                |           |       |         |                 |          |       |
+| suppressMessages               |                  |             |       |                |           |       |         |                 |          |       |
+| typeof                         |                  |             |       |                |           |       |         |                 |          |       |
+| which.min                      |                  |             |       |                |           |       |         |                 |          |       |
+| is.vector                      |                  |             |       |                |           |       |         |                 |          |       |
+| unname                         |                  |             |       |                |           |       |         |                 |          |       |
+| as.name                        |                  |             |       |                |           |       |         |                 |          |       |
+| pmax                           |                  |             |       |                |           |       |         |                 |          |       |
+| unclass                        |                  |             |       |                |           |       |         |                 |          |       |
+| is.factor                      |                  |             |       |                |           |       |         |                 |          |       |
+| is.function                    |                  |             |       |                |           |       |         |                 |          |       |
+| is.nan                         |                  |             |       |                |           |       |         |                 |          |       |
+| toString                       |                  |             |       |                |           |       |         |                 |          |       |
+| dQuote                         |                  |             |       |                |           |       |         |                 |          |       |
+| file.copy                      |                  |             |       |                |           |       |         |                 |          |       |
+| strwrap                        |                  |             |       |                |           |       |         |                 |          |       |
+| requireNamespace               |                  |             |       |                |           |       |         |                 |          |       |
+| Sys.Date                       |                  |             |       |                |           |       |         |                 |          |       |
+| prod                           |                  |             |       |                |           |       |         |                 |          |       |
+| browser                        |                  |             |       |                |           |       |         |                 |          |       |
+| formatC                        |                  |             |       |                |           |       |         |                 |          |       |
+| as.POSIXlt                     |                  |             |       |                |           |       |         |                 |          |       |
+| regexpr                        |                  |             |       |                |           |       |         |                 |          |       |
+| sign                           |                  |             |       |                |           |       |         |                 |          |       |
+| pmin                           |                  |             |       |                |           |       |         |                 |          |       |
+| shQuote                        |                  |             |       |                |           |       |         |                 |          |       |
+| strptime                       |                  |             |       |                |           |       |         |                 |          |       |
+| file.remove                    |                  |             |       |                |           |       |         |                 |          |       |
+| is.element                     |                  |             |       |                |           |       |         |                 |          |       |
+| Sys.setenv                     |                  |             |       |                |           |       |         |                 |          |       |
+| outer                          |                  |             |       |                |           |       |         |                 |          |       |
+| is.infinite                    |                  |             |       |                |           |       |         |                 |          |       |
+| tempdir                        |                  |             |       |                |           |       |         |                 |          |       |
+| Sys.sleep                      |                  |             |       |                |           |       |         |                 |          |       |
+| gettext                        |                  |             |       |                |           |       |         |                 |          |       |
+| formals                        |                  |             |       |                |           |       |         |                 |          |       |
+| body                           |                  |             |       |                |           |       |         |                 |          |       |
+| rank                           |                  |             |       |                |           |       |         |                 |          |       |
+| date                           |                  |             |       |                |           |       |         |                 |          |       |
+| ngettext                       |                  |             |       |                |           |       |         |                 |          |       |
+| stderr                         |                  |             |       |                |           |       |         |                 |          |       |
+| data.matrix                    |                  |             |       |                |           |       |         |                 |          |       |
+| suppressPackageStartupMessages |                  |             |       |                |           |       |         |                 |          |       |
+| sweep                          |                  |             |       |                |           |       |         |                 |          |       |
+| seq.int                        |                  |             |       |                |           |       |         |                 |          |       |
+| readline                       |                  |             |       |                |           |       |         |                 |          |       |
+| Reduce                         |                  |             |       |                |           |       |         |                 |          |       |
+| as.environment                 |                  |             |       |                |           |       |         |                 |          |       |
+| q                              |                  |             |       |                |           |       |         |                 |          |       |
+| file.info                      |                  |             |       |                |           |       |         |                 |          |       |
+| attach                         |                  |             |       |                |           |       |         |                 |          |       |
+| NCOL                           |                  |             |       |                |           |       |         |                 |          |       |
+| droplevels                     |                  |             |       |                |           |       |         |                 |          |       |
+| eigen                          |                  |             |       |                |           |       |         |                 |          |       |
+| tcrossprod                     |                  |             |       |                |           |       |         |                 |          |       |
+| R.home                         |                  |             |       |                |           |       |         |                 |          |       |
+| union                          |                  |             |       |                |           |       |         |                 |          |       |
+| interactive                    |                  |             |       |                |           |       |         |                 |          |       |
+| readBin                        |                  |             |       |                |           |       |         |                 |          |       |
+| drop                           |                  |             |       |                |           |       |         |                 |          |       |
+| Sys.info                       |                  |             |       |                |           |       |         |                 |          |       |
+| globalenv                      |                  |             |       |                |           |       |         |                 |          |       |
+| mode                           |                  |             |       |                |           |       |         |                 |          |       |
+| transform                      |                  |             |       |                |           |       |         |                 |          |       |
+| flush                          |                  |             |       |                |           |       |         |                 |          |       |
+| detach                         |                  |             |       |                |           |       |         |                 |          |       |
+| replicate                      |                  |             |       |                |           |       |         |                 |          |       |
+| strftime                       |                  |             |       |                |           |       |         |                 |          |       |
+| pretty                         |                  |             |       |                |           |       |         |                 |          |       |
+| chol                           |                  |             |       |                |           |       |         |                 |          |       |
+| Filter                         |                  |             |       |                |           |       |         |                 |          |       |
+| Re                             |                  |             |       |                |           |       |         |                 |          |       |
+| gregexpr                       |                  |             |       |                |           |       |         |                 |          |       |
+| Map                            |                  |             |       |                |           |       |         |                 |          |       |
+| by                             |                  |             |       |                |           |       |         |                 |          |       |
+| stdout                         |                  |             |       |                |           |       |         |                 |          |       |
+| nlevels                        |                  |             |       |                |           |       |         |                 |          |       |
+| pmatch                         |                  |             |       |                |           |       |         |                 |          |       |
+| difftime                       |                  |             |       |                |           |       |         |                 |          |       |
+| remove                         |                  |             |       |                |           |       |         |                 |          |       |
+| search                         |                  |             |       |                |           |       |         |                 |          |       |
+| Sys.glob                       |                  |             |       |                |           |       |         |                 |          |       |
+| is.integer                     |                  |             |       |                |           |       |         |                 |          |       |
+| storage.mode                   |                  |             |       |                |           |       |         |                 |          |       |
+| prop.table                     |                  |             |       |                |           |       |         |                 |          |       |
+| anyNA                          |                  |             |       |                |           |       |         |                 |          |       |
+| local                          |                  |             |       |                |           |       |         |                 |          |       |
+| quit                           |                  |             |       |                |           |       |         |                 |          |       |
+| asNamespace                    |                  |             |       |                |           |       |         |                 |          |       |
+| conditionMessage               |                  |             |       |                |           |       |         |                 |          |       |
+| trunc                          |                  |             |       |                |           |       |         |                 |          |       |
+| NextMethod                     |                  |             |       |                |           |       |         |                 |          |       |
+| save.image                     |                  |             |       |                |           |       |         |                 |          |       |
+| topenv                         |                  |             |       |                |           |       |         |                 |          |       |
+| replace                        |                  |             |       |                |           |       |         |                 |          |       |
+| iconv                          |                  |             |       |                |           |       |         |                 |          |       |
+| complex                        |                  |             |       |                |           |       |         |                 |          |       |
+| rep_len                        |                  |             |       |                |           |       |         |                 |          |       |
+| as.array                       |                  |             |       |                |           |       |         |                 |          |       |
+| lower.tri                      |                  |             |       |                |           |       |         |                 |          |       |
+| lgamma                         |                  |             |       |                |           |       |         |                 |          |       |
+| within                         |                  |             |       |                |           |       |         |                 |          |       |
+| regmatches                     |                  |             |       |                |           |       |         |                 |          |       |
+| emptyenv                       |                  |             |       |                |           |       |         |                 |          |       |
+| objects                        |                  |             |       |                |           |       |         |                 |          |       |
+| lengths                        |                  |             |       |                |           |       |         |                 |          |       |
+| system2                        |                  |             |       |                |           |       |         |                 |          |       |
+| trimws                         |                  |             |       |                |           |       |         |                 |          |       |
+| call                           |                  |             |       |                |           |       |         |                 |          |       |
+| row                            |                  |             |       |                |           |       |         |                 |          |       |
+| col                            |                  |             |       |                |           |       |         |                 |          |       |
+| det                            |                  |             |       |                |           |       |         |                 |          |       |
+| upper.tri                      |                  |             |       |                |           |       |         |                 |          |       |
+| as.raw                         |                  |             |       |                |           |       |         |                 |          |       |
+| cbind.data.frame               |                  |             |       |                |           |       |         |                 |          |       |
+| is.call                        |                  |             |       |                |           |       |         |                 |          |       |
+| textConnection                 |                  |             |       |                |           |       |         |                 |          |       |
+| find.package                   |                  |             |       |                |           |       |         |                 |          |       |
+| oldClass                       |                  |             |       |                |           |       |         |                 |          |       |
+| charToRaw                      |                  |             |       |                |           |       |         |                 |          |       |
+| baseenv                        |                  |             |       |                |           |       |         |                 |          |       |
+| make.names                     |                  |             |       |                |           |       |         |                 |          |       |
+| ordered                        |                  |             |       |                |           |       |         |                 |          |       |
+| path.expand                    |                  |             |       |                |           |       |         |                 |          |       |
+| acos                           |                  |             |       |                |           |       |         |                 |          |       |
+| startsWith                     |                  |             |       |                |           |       |         |                 |          |       |
+| is.double                      |                  |             |       |                |           |       |         |                 |          |       |
+| svd                            |                  |             |       |                |           |       |         |                 |          |       |
+| labels                         |                  |             |       |                |           |       |         |                 |          |       |
+| is.environment                 |                  |             |       |                |           |       |         |                 |          |       |
+| file.rename                    |                  |             |       |                |           |       |         |                 |          |       |
+| qr                             |                  |             |       |                |           |       |         |                 |          |       |
+| writeBin                       |                  |             |       |                |           |       |         |                 |          |       |
+| sample.int                     |                  |             |       |                |           |       |         |                 |          |       |
+| match.fun                      |                  |             |       |                |           |       |         |                 |          |       |
+| anyDuplicated                  |                  |             |       |                |           |       |         |                 |          |       |
+| sys.call                       |                  |             |       |                |           |       |         |                 |          |       |
+| Sys.setlocale                  |                  |             |       |                |           |       |         |                 |          |       |
+| Encoding                       |                  |             |       |                |           |       |         |                 |          |       |
+| parent.env                     |                  |             |       |                |           |       |         |                 |          |       |
+| aperm                          |                  |             |       |                |           |       |         |                 |          |       |
+| nargs                          |                  |             |       |                |           |       |         |                 |          |       |
+| noquote                        |                  |             |       |                |           |       |         |                 |          |       |
+| dput                           |                  |             |       |                |           |       |         |                 |          |       |
+| log1p                          |                  |             |       |                |           |       |         |                 |          |       |
+| gl                             |                  |             |       |                |           |       |         |                 |          |       |
+| as.single                      |                  |             |       |                |           |       |         |                 |          |       |
+| Recall                         |                  |             |       |                |           |       |         |                 |          |       |
+| jitter                         |                  |             |       |                |           |       |         |                 |          |       |
+| is.name                        |                  |             |       |                |           |       |         |                 |          |       |
+| gamma                          |                  |             |       |                |           |       |         |                 |          |       |
+| choose                         |                  |             |       |                |           |       |         |                 |          |       |
+| sinpi                          |                  |             |       |                |           |       |         |                 |          |       |
+| list.dirs                      |                  |             |       |                |           |       |         |                 |          |       |
+| all.vars                       |                  |             |       |                |           |       |         |                 |          |       |
+| url                            |                  |             |       |                |           |       |         |                 |          |       |
+| raw                            |                  |             |       |                |           |       |         |                 |          |       |
+| is.primitive                   |                  |             |       |                |           |       |         |                 |          |       |
+| gzfile                         |                  |             |       |                |           |       |         |                 |          |       |
+| as.expression                  |                  |             |       |                |           |       |         |                 |          |       |
+| is.atomic                      |                  |             |       |                |           |       |         |                 |          |       |
+| rawToChar                      |                  |             |       |                |           |       |         |                 |          |       |
+| atan2                          |                  |             |       |                |           |       |         |                 |          |       |
+| norm                           |                  |             |       |                |           |       |         |                 |          |       |
+| kronecker                      |                  |             |       |                |           |       |         |                 |          |       |
+| sys.parent                     |                  |             |       |                |           |       |         |                 |          |       |
+| atan                           |                  |             |       |                |           |       |         |                 |          |       |
+| eval.parent                    |                  |             |       |                |           |       |         |                 |          |       |
+| findInterval                   |                  |             |       |                |           |       |         |                 |          |       |
+| interaction                    |                  |             |       |                |           |       |         |                 |          |       |
+| Im                             |                  |             |       |                |           |       |         |                 |          |       |
+| asin                           |                  |             |       |                |           |       |         |                 |          |       |
+| as.call                        |                  |             |       |                |           |       |         |                 |          |       |
+| open                           |                  |             |       |                |           |       |         |                 |          |       |
+| mget                           |                  |             |       |                |           |       |         |                 |          |       |
+| rle                            |                  |             |       |                |           |       |         |                 |          |       |
+| prettyNum                      |                  |             |       |                |           |       |         |                 |          |       |
+| packageStartupMessage          |                  |             |       |                |           |       |         |                 |          |       |
+| units                          |                  |             |       |                |           |       |         |                 |          |       |
+| warnings                       |                  |             |       |                |           |       |         |                 |          |       |
+| isS4                           |                  |             |       |                |           |       |         |                 |          |       |
+| debug                          |                  |             |       |                |           |       |         |                 |          |       |
+| sys.frame                      |                  |             |       |                |           |       |         |                 |          |       |
+| force                          |                  |             |       |                |           |       |         |                 |          |       |
+| sort.list                      |                  |             |       |                |           |       |         |                 |          |       |
+| dyn.load                       |                  |             |       |                |           |       |         |                 |          |       |
+| tabulate                       |                  |             |       |                |           |       |         |                 |          |       |
+| Sys.which                      |                  |             |       |                |           |       |         |                 |          |       |
+| sequence                       |                  |             |       |                |           |       |         |                 |          |       |
+| tan                            |                  |             |       |                |           |       |         |                 |          |       |
+| readChar                       |                  |             |       |                |           |       |         |                 |          |       |
+| chol2inv                       |                  |             |       |                |           |       |         |                 |          |       |
+| T                              |                  |             |       |                |           |       |         |                 |          |       |
+| Conj                           |                  |             |       |                |           |       |         |                 |          |       |
+| tanh                           |                  |             |       |                |           |       |         |                 |          |       |
+| alist                          |                  |             |       |                |           |       |         |                 |          |       |
+| is.array                       |                  |             |       |                |           |       |         |                 |          |       |
+| as.symbol                      |                  |             |       |                |           |       |         |                 |          |       |
+| is.complex                     |                  |             |       |                |           |       |         |                 |          |       |
+| read.dcf                       |                  |             |       |                |           |       |         |                 |          |       |
+| setequal                       |                  |             |       |                |           |       |         |                 |          |       |
+| file.create                    |                  |             |       |                |           |       |         |                 |          |       |
+| loadNamespace                  |                  |             |       |                |           |       |         |                 |          |       |
+| getNamespace                   |                  |             |       |                |           |       |         |                 |          |       |
+| Mod                            |                  |             |       |                |           |       |         |                 |          |       |
+| F                              |                  |             |       |                |           |       |         |                 |          |       |
+| is.symbol                      |                  |             |       |                |           |       |         |                 |          |       |
+| simplify2array                 |                  |             |       |                |           |       |         |                 |          |       |
+| as.table                       |                  |             |       |                |           |       |         |                 |          |       |
+| rbind.data.frame               |                  |             |       |                |           |       |         |                 |          |       |
+| bitwShiftR                     |                  |             |       |                |           |       |         |                 |          |       |
+| beta                           |                  |             |       |                |           |       |         |                 |          |       |
+| is.object                      |                  |             |       |                |           |       |         |                 |          |       |
+| file.choose                    |                  |             |       |                |           |       |         |                 |          |       |
+| bitwShiftL                     |                  |             |       |                |           |       |         |                 |          |       |
+| args                           |                  |             |       |                |           |       |         |                 |          |       |
+| getNamespaceInfo               |                  |             |       |                |           |       |         |                 |          |       |
+| capabilities                   |                  |             |       |                |           |       |         |                 |          |       |
+| is.expression                  |                  |             |       |                |           |       |         |                 |          |       |
+| Vectorize                      |                  |             |       |                |           |       |         |                 |          |       |
+| cumprod                        |                  |             |       |                |           |       |         |                 |          |       |
+| package_version                |                  |             |       |                |           |       |         |                 |          |       |
+| Sys.getlocale                  |                  |             |       |                |           |       |         |                 |          |       |
+| R.Version                      |                  |             |       |                |           |       |         |                 |          |       |
+| is.unsorted                    |                  |             |       |                |           |       |         |                 |          |       |
+| geterrmessage                  |                  |             |       |                |           |       |         |                 |          |       |
+| getRversion                    |                  |             |       |                |           |       |         |                 |          |       |
+| seek                           |                  |             |       |                |           |       |         |                 |          |       |
+| pairlist                       |                  |             |       |                |           |       |         |                 |          |       |
+| next                           |                  |             |       |                |           |       |         |                 |          |       |
+| is.ordered                     |                  |             |       |                |           |       |         |                 |          |       |
+| simpleError                    |                  |             |       |                |           |       |         |                 |          |       |
+| version                        |                  |             |       |                |           |       |         |                 |          |       |
+| list2env                       |                  |             |       |                |           |       |         |                 |          |       |
+| make.unique                    |                  |             |       |                |           |       |         |                 |          |       |
+| ISOdate                        |                  |             |       |                |           |       |         |                 |          |       |
+| serialize                      |                  |             |       |                |           |       |         |                 |          |       |
+| loadedNamespaces               |                  |             |       |                |           |       |         |                 |          |       |
+| months                         |                  |             |       |                |           |       |         |                 |          |       |
+| Sys.unsetenv                   |                  |             |       |                |           |       |         |                 |          |       |
+| isOpen                         |                  |             |       |                |           |       |         |                 |          |       |
+| chartr                         |                  |             |       |                |           |       |         |                 |          |       |
+| isNamespace                    |                  |             |       |                |           |       |         |                 |          |       |
+| file.access                    |                  |             |       |                |           |       |         |                 |          |       |
+| RNGkind                        |                  |             |       |                |           |       |         |                 |          |       |
+| unserialize                    |                  |             |       |                |           |       |         |                 |          |       |
+| pipe                           |                  |             |       |                |           |       |         |                 |          |       |
+| bitwAnd                        |                  |             |       |                |           |       |         |                 |          |       |
+| strtoi                         |                  |             |       |                |           |       |         |                 |          |       |
+| factorial                      |                  |             |       |                |           |       |         |                 |          |       |
+| mat.or.vec                     |                  |             |       |                |           |       |         |                 |          |       |
+| Sys.getpid                     |                  |             |       |                |           |       |         |                 |          |       |
+| withCallingHandlers            |                  |             |       |                |           |       |         |                 |          |       |
+| max.col                        |                  |             |       |                |           |       |         |                 |          |       |
+| as.numeric_version             |                  |             |       |                |           |       |         |                 |          |       |
+| sys.function                   |                  |             |       |                |           |       |         |                 |          |       |
+| digamma                        |                  |             |       |                |           |       |         |                 |          |       |
+| | set              |             |       |                |           |       |         |                 |          |       |
+| | setnames         |             |       |                |           |       |         |                 |          |       |
+| | data.table       |             |       |                |           |       |         |                 |          |       |
+| | setkey           |             |       |                |           |       |         |                 |          |       |
+| | copy             |             |       |                |           |       |         |                 |          |       |
+| | as.data.table    |             |       |                |           |       |         |                 |          |       |
+| | melt             |             |       |                |           |       |         |                 |          |       |
+| | dcast.data.table |             |       |                |           |       |         |                 |          |       |
+| | fread            |             |       |                |           |       |         |                 |          |       |
+| | rbindlist        |             |       |                |           |       |         |                 |          |       |
+| | melt.data.table  |             |       |                |           |       |         |                 |          |       |
+| | setkeyv          |             |       |                |           |       |         |                 |          |       |
+| | setcolorder      |             |       |                |           |       |         |                 |          |       |
+| |                  | filter      |       |                |           |       |         |                 |          |       |
+| |                  | mutate      |       |                |           |       |         |                 |          |       |
+| |                  | select      |       |                |           |       |         |                 |          |       |
+| |                  | group_by    |       |                |           |       |         |                 |          |       |
+| |                  | summarise   |       |                |           |       |         |                 |          |       |
+| |                  | arrange     |       |                |           |       |         |                 |          |       |
+| |                  | n           |       |                |           |       |         |                 |          |       |
+| |                  | left_join   |       |                |           |       |         |                 |          |       |
+| |                  | summarize   |       |                |           |       |         |                 |          |       |
+| |                  | rename      |       |                |           |       |         |                 |          |       |
+| |                  | ungroup     |       |                |           |       |         |                 |          |       |
+| |                  | bind_rows   |       |                |           |       |         |                 |          |       |
+| |                  | desc        |       |                |           |       |         |                 |          |       |
+| |                  | inner_join  |       |                |           |       |         |                 |          |       |
+| |                  | distinct    |       |                |           |       |         |                 |          |       |
+| |                  | tbl_df      |       |                |           |       |         |                 |          |       |
+| |                  | count       |       |                |           |       |         |                 |          |       |
+| |                  | starts_with |       |                |           |       |         |                 |          |       |
+| |                  | funs        |       |                |           |       |         |                 |          |       |
+| |                  | intersect   |       |                |           |       |         |                 |          |       |
+| |                  | setdiff     |       |                |           |       |         |                 |          |       |
+| |                  | tbl         |       |                |           |       |         |                 |          |       |
+| |                  | do          |       |                |           |       |         |                 |          |       |
+| |                  | slice       |       |                |           |       |         |                 |          |       |
+| |                  | contains    |       |                |           |       |         |                 |          |       |
+| |                  | collect     |       |                |           |       |         |                 |          |       |
+| |                  | first       |       |                |           |       |         |                 |          |       |
+| |                  | data_frame  |       |                |           |       |         |                 |          |       |
+| |                  | select_     |       |                |           |       |         |                 |          |       |
+| |                  | glimpse     |       |                |           |       |         |                 |          |       |
+| |                  | full_join   |       |                |           |       |         |                 |          |       |
+| |                  | n_distinct  |       |                |           |       |         |                 |          |       |
+| |                  |             |       | new            |           |       |         |                 |          |       |
+| |                  |             |       | is             |           |       |         |                 |          |       |
+| |                  |             |       | setMethod      |           |       |         |                 |          |       |
+| |                  |             |       | setClass       |           |       |         |                 |          |       |
+| |                  |             |       | representation |           |       |         |                 |          |       |
+| |                  |             |       | slot           |           |       |         |                 |          |       |
+| |                  |             |       | signature      |           |       |         |                 |          |       |
+| |                  |             |       | getClass       |           |       |         |                 |          |       |
+| |                  |             |       | getClassDef    |           |       |         |                 |          |       |
+| |                  |             |       | setGeneric     |           |       |         |                 |          |       |
+| |                  |             |       | as             |           |       |         |                 |          |       |
+| |                  |             |       | getGeneric     |           |       |         |                 |          |       |
+| |                  |             |       | packageSlot    |           |       |         |                 |          |       |
+| |                  |             |       | extends        |           |       |         |                 |          |       |
+| |                  |             |       |                |           |       |         | str_detect      |          |       |
+| |                  |             |       |                |           |       |         | str_replace_all |          |       |
+| |                  |             |       |                |           |       |         | str_replace     |          |       |
+| |                  |             |       |                |           |       |         | str_c           |          |       |
+| |                  |             |       |                |           |       |         | str_trim        |          |       |
+| |                  |             |       |                |           |       |         | str_sub         |          |       |
+| |                  |             |       |                |           |       |         | str_split       |          |       |
+| |                  |             |       |                |           |       |         | str_extract     |          |       |
+| |                  |             |       |                |           |       |         | str_split_fixed |          |       |
+| |                  |             |       |                |           |       | lm      |                 |          |       |
+| |                  |             |       |                |           |       | rnorm   |                 |          |       |
+| |                  |             |       |                |           |       | runif   |                 |          |       |
+| |                  |             |       |                |           |       | predict |                 |          |       |
+| |                  |             |       |                |           | melt  |         |                 |          |       |
+| |                  |             |       |                |           | dcast |         |                 |          |       |
+| |                  |             | year  |                |           |       |         |                 |          |       |
+| |                  |             | ymd   |                |           |       |         |                 |          |       |
+| |                  |             | month |                |           |       |         |                 |          |       |
+| |                  |             |       |                |           |       |         |                 | gather   |       |
+| |                  |             |       |                |           |       |         |                 | spread   |       |
+| |                  |             |       |                |           |       |         |                 | separate |       |
+| |                  |             |       |                | read_csv  |       |         |                 |          |       |
+| |                  |             |       |                | write_csv |       |         |                 |          |       |
