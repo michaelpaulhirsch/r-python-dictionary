@@ -2,6 +2,7 @@ R-python dictionary
 
 | base|data.table|dplyr|methods|stringr|stats|reshape2|lubridate|tidyr|readr|python |
 |:--- |:-------- |:--- |:----- |:----- |:--- |:------ |:------- |:--- |:--- |:---- |
+|? or help||||||||||help|
 |c|||||||||||
 |if|||||||||||
 |function|||||||||||
@@ -44,6 +45,7 @@ R-python dictionary
 |unlist|||||||||||
 |ifelse|||||||||||
 |min|||||||||||
+
 |gsub|||||||||||
 |rbind|||||||||||
 |structure|||||||||||
@@ -80,7 +82,7 @@ R-python dictionary
 |eval|||||||||||
 |character|||||||||||
 |levels|||||||||||
-|setwd|||||||||||
+|setwd||||||||||os.chdir|
 |do.call|||||||||||
 |as.factor|||||||||||
 |sort|||||||||||
@@ -151,7 +153,7 @@ R-python dictionary
 |getOption|||||||||||
 |append|||||||||||
 |ceiling|||||||||||
-|getwd|||||||||||
+|getwd||||||||||os.getcwd|
 |Sys.getenv|||||||||||
 |unlink|||||||||||
 |colSums|||||||||||
