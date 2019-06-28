@@ -45,7 +45,6 @@ R-python dictionary
 |unlist|||||||||||
 |ifelse|||||||||||
 |min|||||||||||
-
 |gsub|||||||||||
 |rbind|||||||||||
 |structure|||||||||||
