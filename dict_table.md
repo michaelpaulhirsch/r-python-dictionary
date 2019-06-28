@@ -293,7 +293,7 @@ R-python dictionary
 |pmatch|||||||||||
 |difftime|||||||||||
 |remove|||||||||||
-|search|||||||||||
+|search||||||||||sys.modules.keys()|
 |Sys.glob|||||||||||
 |is.integer|||||||||||
 |storage.mode|||||||||||
