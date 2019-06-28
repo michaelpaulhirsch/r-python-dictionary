@@ -35,7 +35,7 @@ R-python dictionary
 |mean|||||||||||
 |missing|||||||||||
 |cbind|||||||||||
-|dim|||||||||||
+|dim||||||||||<obj>.shape|
 |round|||||||||||
 |ncol|||||||||||
 |sapply|||||||||||
