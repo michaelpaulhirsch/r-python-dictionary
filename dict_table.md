@@ -24,9 +24,9 @@ R-python dictionary
 |is.na|||||||||||
 |which|||||||||||
 |colnames|||||||||||
-|as.character|||||||||||
+|as.character||||||||||str|
 |data.frame|||||||||||
-|as.numeric|||||||||||
+|as.numeric||||||||||float|
 |matrix|||||||||||
 |max|||||||||||
 |lapply|||||||||||
@@ -55,7 +55,7 @@ R-python dictionary
 |summary|||||||||||
 |any|||||||||||
 |sprintf|||||||||||
-|as.integer|||||||||||
+|as.integer||||||||||int|
 |attr|||||||||||
 |source|||||||||||
 |sqrt|||||||||||
