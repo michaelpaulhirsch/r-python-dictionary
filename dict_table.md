@@ -6,7 +6,7 @@ R-python dictionary
 |c|||||||||||
 |if|||||||||||
 |function|||||||||||
-|length|||||||||||
+|length||||||||||len|
 |list|||||||||||
 |paste|||||||||||
 |return|||||||||||
