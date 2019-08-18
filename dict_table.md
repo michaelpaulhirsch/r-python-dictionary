@@ -356,7 +356,7 @@ R-python dictionary
 |aperm|||||||||||
 |nargs|||||||||||
 |noquote|||||||||||
-|dput|||||||||||
+|dput||||||||||json.dumps(x) or json.dumps(list(x)|
 |log1p|||||||||||
 |gl|||||||||||
 |as.single|||||||||||
