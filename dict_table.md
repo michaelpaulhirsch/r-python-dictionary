@@ -1,6 +1,7 @@
 |Rbase|Rdata.table|tidyverse|python|
 |:--|:--|:--|:--|
 |? or help()|||help|
+|base::browser()|||pdb.set_trace()|
 |base::c()||||
 |base::if()||||
 |base::function()||||
@@ -230,7 +231,6 @@
 |base::requireNamespace()||||
 |base::Sys.Date()||||
 |base::prod()||||
-|base::browser()||||
 |base::formatC()||||
 |base::as.POSIXlt()||||
 |base::regexpr()||||
