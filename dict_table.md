@@ -34,7 +34,7 @@
 |base::mean()||||
 |base::missing()||||
 |base::cbind()||||
-|base::dim()|||<obj>.shape|
+|base::dim()|||numpy.ndarray.shape|
 |base::round()||||
 |base::ncol()||||
 |base::sapply()||||
