@@ -41,7 +41,7 @@
 |base::rownames()||||
 |base::log()||||
 |base::t()||||
-|base::unlist()||||
+|base::unlist()|||numpy.ravel()|
 |base::ifelse()||||
 |base::min()||||
 |base::gsub()|||re.sub|
