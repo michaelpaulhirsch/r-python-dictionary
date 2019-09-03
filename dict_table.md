@@ -341,7 +341,7 @@
 |base::svd()||||
 |base::labels()||||
 |base::is.environment()||||
-|base::file.rename()||||
+|base::file.rename()|||os.rename()|
 |base::qr()||||
 |base::writeBin()||||
 |base::sample.int()||||
