@@ -87,7 +87,7 @@
 |base::invisible()||||
 |base::sample()||||
 |base::merge()||||
-|base::file.exists()||||
+|base::file.exists(...)|||os.path.isfile(path)|
 |base::get()||||
 |base::format()||||
 |base::diag()||||
