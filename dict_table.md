@@ -5,7 +5,7 @@
 |base::c()||||
 |base::if()||||
 |base::function()||||
-|base::length()|||len|
+|base::length()|||len()|
 |base::list()||||
 |base::paste()||||
 |base::return()||||
