@@ -1,7 +1,7 @@
 |Rbase|Rdata.table|tidyverse|python|
 |:--|:--|:--|:--|
 |? or help()|||help|
-|base::browser()|||pdb.set_trace()|
+|base::browser()|||pdb.set_trace() or ipdb.set_trace()|
 |base::c()||||
 |base::if()||||
 |base::function()||||
