@@ -66,7 +66,7 @@
 |base::stopifnot()||||
 |base::exp()||||
 |base::require()||||
-|base::order()||||
+|base::order()|||numpy.argsort()|
 |base::identical()||||
 |base::rm()||||
 |base::strsplit()||||
