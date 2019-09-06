@@ -226,7 +226,7 @@
 |base::is.nan()||||
 |base::toString()||||
 |base::dQuote()||||
-|base::file.copy()||||
+|base::file.copy()|||shutil.copyfile()|
 |base::strwrap()||||
 |base::requireNamespace()||||
 |base::Sys.Date()||||
