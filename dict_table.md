@@ -379,7 +379,7 @@
 |base::sys.parent()||||
 |base::atan()||||
 |base::eval.parent()||||
-|base::findInterval()||||
+|base::findInterval()|||numpy.digitize()|
 |base::interaction()||||
 |base::Im()||||
 |base::asin()||||
