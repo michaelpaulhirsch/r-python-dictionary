@@ -127,7 +127,7 @@
 |base::rev()||||
 |base::seq_len()||||
 |base::log10()||||
-|base::list.files()||||
+|base::list.files()|||os.listdir()|
 |base::floor()||||
 |base::diff()||||
 |base::substitute()||||
