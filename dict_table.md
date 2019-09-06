@@ -202,7 +202,8 @@
 |base::NROW()||||
 |base::dir()||||
 |base::system.time()||||
-|base::which.max()||||
+|base::which.min()|||numpy.argmin()|
+|base::which.max()|||numpy.argmax()|
 |base::saveRDS()||||
 |base::log2()||||
 |base::gc()||||
@@ -215,7 +216,6 @@
 |base::bquote()||||
 |base::suppressMessages()||||
 |base::typeof()||||
-|base::which.min()||||
 |base::is.vector()||||
 |base::unname()||||
 |base::as.name()||||
